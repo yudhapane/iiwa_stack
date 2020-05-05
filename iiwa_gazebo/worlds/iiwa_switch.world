@@ -81,7 +81,7 @@
     </physics>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>0.080224 -1.70217 0.284734 0 0.087644 1.6322</pose>
+        <pose frame=''>0.545331 -1.08789 0.153541 -0 0.09769 1.74383</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -751,15 +751,15 @@
       <pose frame=''>0 0 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>10075 530000000</sim_time>
-      <real_time>4034 129412630</real_time>
-      <wall_time>1588343639 893482127</wall_time>
-      <iterations>392924</iterations>
+      <sim_time>10981 950000000</sim_time>
+      <real_time>909 165514935</real_time>
+      <wall_time>1588668118 511652396</wall_time>
+      <iterations>90642</iterations>
       <model name='ground_plane'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0.55 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose frame=''>0.55 0 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -775,63 +775,63 @@
           <wrench>-0.000705 -0.000957 0.001657 0 -0 0</wrench>
         </link>
         <link name='iiwa::iiwa_link_1'>
-          <pose frame=''>-0 0 0.15 0 -2e-06 -0.001945</pose>
-          <velocity>1e-06 -0 3e-06 1.9e-05 -1.4e-05 -1e-05</velocity>
-          <acceleration>-0.000111 -0.000485 0.00057 0.003872 -0.002769 0.000763</acceleration>
-          <wrench>-0.000383 -0.001674 0.001969 0 -0 0</wrench>
+          <pose frame=''>-0 0 0.15 0 -2e-06 -0.001446</pose>
+          <velocity>0 -0 3e-06 2e-05 -1.5e-05 -9e-06</velocity>
+          <acceleration>-4e-06 -0.000547 0.000551 0.00403 -0.002713 0.000797</acceleration>
+          <wrench>-1.3e-05 -0.00189 0.001902 0 -0 0</wrench>
         </link>
         <link name='iiwa::iiwa_link_2'>
-          <pose frame=''>-0 0 0.34 1.5708 -0.587704 3.13965</pose>
-          <velocity>-1e-06 -3e-06 2e-06 1e-05 1.3e-05 -7e-06</velocity>
-          <acceleration>-0.000274 -0.000606 0.000574 0.001937 -0.00136 1.8e-05</acceleration>
-          <wrench>-0.000956 -0.002112 0.002 0 -0 0</wrench>
+          <pose frame=''>-0 0 0.34 1.5708 -1.00762 3.14015</pose>
+          <velocity>-2e-06 -3e-06 2e-06 1.2e-05 -5e-06 -4e-06</velocity>
+          <acceleration>-0.000186 -0.000659 0.000526 0.002453 -0.002916 -0.000392</acceleration>
+          <wrench>-0.000648 -0.002294 0.001831 0 -0 0</wrench>
         </link>
         <link name='iiwa::iiwa_link_3'>
-          <pose frame=''>0.116434 -0.000226 0.514766 0.001693 0.587702 0.001109</pose>
-          <velocity>2e-06 -4e-06 0 1e-06 2.1e-05 -2e-06</velocity>
-          <acceleration>-3.8e-05 -0.000373 0.000276 0.00017 0.001514 0.002237</acceleration>
-          <wrench>-0.000155 -0.001512 0.001121 0 -0 0</wrench>
+          <pose frame=''>0.177568 -0.000257 0.452114 -0.001635 1.00762 -0.00338</pose>
+          <velocity>-3e-06 -4e-06 2e-06 6e-06 2e-06 2e-06</velocity>
+          <acceleration>-3e-06 -0.000257 -3e-06 0.000656 0.0018 0.002496</acceleration>
+          <wrench>-1.2e-05 -0.001042 -1.1e-05 0 -0 0</wrench>
         </link>
         <link name='iiwa::iiwa_link_4'>
-          <pose frame=''>0.22178 -0.000431 0.672887 -1.57282 0.800501 3.14031</pose>
-          <velocity>5e-06 -5e-06 -2e-06 0 2e-05 -3e-06</velocity>
-          <acceleration>0.000137 -0.000204 0.000182 -0.000444 0.00279 0.000922</acceleration>
-          <wrench>0.000478 -0.000709 0.000635 0 -0 0</wrench>
+          <pose frame=''>0.338225 -0.000489 0.553549 -1.56978 0.524362 3.1401</pose>
+          <velocity>-2e-06 -5e-06 2e-06 2e-06 -4e-06 2e-06</velocity>
+          <acceleration>0.000176 -0.000101 -0.000121 2e-06 0.002291 0.001017</acceleration>
+          <wrench>0.000613 -0.000352 -0.000423 0 -0 0</wrench>
         </link>
         <link name='iiwa::iiwa_link_5'>
-          <pose frame=''>0.372498 -0.000199 0.526654 -3.14154 -0.800503 0.001459</pose>
-          <velocity>3e-06 -5e-06 -5e-06 -2e-06 1.8e-05 -5e-06</velocity>
-          <acceleration>-7e-06 4.4e-05 4.3e-05 -0.000788 0.000655 0.001679</acceleration>
-          <wrench>-1.6e-05 9.4e-05 9.4e-05 0 -0 0</wrench>
+          <pose frame=''>0.443364 -0.000858 0.371764 3.14035 -0.524362 -0.001032</pose>
+          <velocity>-1e-06 -5e-06 2e-06 -1e-06 -9e-06 -1e-06</velocity>
+          <acceleration>3.9e-05 2.3e-05 -0.000172 -0.000774 0.000518 0.001907</acceleration>
+          <wrench>8.4e-05 4.9e-05 -0.000372 0 -0 0</wrench>
         </link>
         <link name='iiwa::iiwa_link_6'>
-          <pose frame=''>0.508953 -0.06069 0.394346 -1.57076 -0.000342 0.001499</pose>
-          <velocity>0 -6e-06 -7e-06 -4e-06 1.2e-05 -6e-06</velocity>
-          <acceleration>3.2e-05 0.000133 3e-06 -0.000849 0.000686 0.00127</acceleration>
-          <wrench>7.5e-05 0.000311 7e-06 0 -0 0</wrench>
+          <pose frame=''>0.538389 -0.061891 0.207357 -1.57187 -0.079768 -0.001567</pose>
+          <velocity>1e-06 -5e-06 3e-06 -6e-06 -1.5e-05 -2e-06</velocity>
+          <acceleration>0.000108 1.9e-05 -0.000157 -0.001228 0.000174 0.001221</acceleration>
+          <wrench>0.000253 4.4e-05 -0.000367 0 -0 0</wrench>
         </link>
         <link name='iiwa::iiwa_link_7'>
-          <pose frame=''>0.50889 1.3e-05 0.313348 3.14156 0.000342 -3.13995</pose>
-          <velocity>-0 -7e-06 -8e-06 -6e-06 1e-05 -7e-06</velocity>
-          <acceleration>-6.6e-05 6e-06 -7.3e-05 -0.001319 -8.9e-05 0.001536</acceleration>
-          <wrench>-0.000207 1.9e-05 -0.000228 0 -0 0</wrench>
+          <pose frame=''>0.544943 -0.001289 0.12655 -3.14036 0.079765 -3.14123</pose>
+          <velocity>3e-06 -6e-06 2e-06 -1.2e-05 -2.2e-05 -4e-06</velocity>
+          <acceleration>3.9e-05 -0.000158 -0.000257 -0.002049 -0.000351 0.002093</acceleration>
+          <wrench>0.000121 -0.000494 -0.000804 0 -0 0</wrench>
         </link>
       </model>
-      <model name='switchhoulder_3'>
-        <pose frame=''>0.55 0.013645 1.2e-05 -0.000134 -0.000608 -1.53095</pose>
+      <model name='switchhoulder'>
+        <pose frame=''>0.541124 0.00365 0 0 -0 1.56025</pose>
         <scale>1 1 1</scale>
         <link name='montage_blok'>
-          <pose frame=''>0.55 0.013645 1.2e-05 -0.000134 -0.000608 -1.53095</pose>
+          <pose frame=''>0.541124 0.00365 0 0 -0 1.56025</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-0 -2e-06 -0.003905 0.192492 -0.036499 0</acceleration>
-          <wrench>-0 -2e-06 -0.003905 0 -0 0</wrench>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <light name='sun'>
         <pose frame=''>0 0 10 0 -0 0</pose>
       </light>
     </state>
-    <model name='switchhoulder_3'>
+    <model name='switchhoulder'>
       <link name='montage_blok'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <collision name='switchhoulder'>
@@ -865,22 +865,11 @@
           </geometry>
         </visual>
         <self_collide>0</self_collide>
-        <inertial>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-          <mass>1</mass>
-        </inertial>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>1.37059 -0.51191 0 0 -0 0</pose>
+      <static>1</static>
+      <pose frame=''>-0.265591 -0.337294 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>
