@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+
+    <!-- A global light source -->
+
+<model name="housing_switch">
+  <!-- Give the base link a unique name -->
+  <link name="housing_switch">
+
+    <!-- Offset the base by half the lenght of the cylinder -->
+    <pose>0 0 0 0 0 0</pose>
+
+    <collision name="housing_switch">
+	<pose>0 0 0 0 0 0</pose>
+      <geometry>
+    <mesh>
+      <uri>model://house_switch/meshes/housing_switch.dae </uri>
+    </mesh>
+      </geometry>
+    </collision>
+
+<visual name="housing_switch_visual">
+  <!-- Offset the visual by have the base's height. We are not rotating
+       mesh since symmetrical -->
+  <pose>0 0 0 0 0 0</pose>
+  <geometry>
+    <mesh>
+      <uri>model://house_switch/meshes/housing_switch.dae </uri>
+    </mesh>
+  </geometry>
+</visual>
+ </link>
+<static>true</static>
+</model>
+</sdf>
