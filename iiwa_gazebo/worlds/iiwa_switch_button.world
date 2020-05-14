@@ -1,7 +1,6 @@
 <sdf version='1.6'>
   <world name='default'>
     <model name='ground_plane'>
-     <plugin name="ros_link_attacher_plugin" filename="libgazebo_ros_link_attacher.so"/>
       <static>1</static>
       <link name='link'>
         <collision name='collision'>

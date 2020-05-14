@@ -17,6 +17,12 @@
         <jointName>${robot_name}_joint_7</jointName>
       </plugin>
     </gazebo>   
+    
+    <!--  The link attacher plugin     -->
+    <gazebo>
+        <plugin name="ros_link_attacher_plugin" filename="libgazebo_ros_link_attacher.so">
+        </plugin>
+    </gazebo>  
 
     <!-- Load Gazebo lib and set the robot namespace -->
     <gazebo>
